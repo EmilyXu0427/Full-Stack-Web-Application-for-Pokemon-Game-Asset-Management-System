@@ -27,13 +27,13 @@ HTML, CSS, JavaScript, Node.js, Express, Oracle database, SQL
 <h2/>End user functions</h2>
 </div>
 
-Users will be able to interact with the database as a trainer to catch pokemon, challenge gym to collect badges, and buy items from store.
-Specifically, this web application is able to carry out the following functions:
+Users are able to interact with the database as a trainer to catch pokemon, challenge gym to collect badges, and buy items from store.
+Specifically, this web application has following functionalities:
 
 ***On SignUp page, first time users are able to:*** <br/>
 ✅ Register a new account with this web application.<br/>
 ✅ Registration has certain constraints. For example, users cannot register with username already taken.<br/>
-✅ Username and password need to follow specific pattern.<br/>
+✅ Username and password need to follow specific pattern (achieved by regex).<br/>
 
 ***On Login page, users are able to:*** <br/>
 ✅ Login in with correct combination of username and password<br/>
@@ -41,29 +41,29 @@ Specifically, this web application is able to carry out the following functions:
 
 ***On Home page, users are able to:*** <br/>
 ✅ Get access to the information of leaderboard.<br/>
-✅ Change their profile information including name, zipcode, password. <br/>
+✅ Change profile information including name, zipcode, password. <br/>
 ✅ Log out by clicking Logout button. <br/>
   
 ***On Team page, users are able to:*** <br/>
-✅ Review their asset information including number of pokemons in their teams, number of items they have bought and number of badgets they have collected. <br/>
+✅ Review their total asset information including number of pokemon in their team, number of badges they have collected and number of items they have bought. <br/>
 ✅ Review the pokemon attributes by clicking on listed pokemon. <br/>
-✅ Rrain a pokemon and increase the level. <br/>
-✅ Release a pokemon from the team. <br/>
-✅ Count pokemon by type. <br/>
+✅ Train a selected pokemon and increase its level. <br/>
+✅ Release selected pokemon from the team. <br/>
+✅ Count number of pokemon of different type. <br/>
 
 ***On Catch page, users are able to:*** <br/>
 ✅ Catch a random generated pokemon. <br/>
 ✅ Review the pokemon attributes. <br/>
-✅ Decide to add the pokemon to their team or release it. <br/>
+✅ Decide to add the pokemon to the team or release it. <br/>
 
 ***On Gym page, users are able to:*** <br/>
 ✅ Review information of all gyms existing in the database. <br/>
-✅ Find the gym by searching using gym name. <br/>
-✅ Challenge gym by clicking the Flight button. If trainer won the challenge, corresponding badge will be added to trainer's badge list. <br/>
+✅ Search gym using gym name. <br/>
+✅ Challenge gym by clicking 'Flight' button. If trainer won the challenge, corresponding badge will be added to trainer's badge list. <br/>
 
 ***On Pokedex page, users are able to:*** <br/>
 ✅ Review the information of all pokemon existing in the database. <br/>
-✅ Review each pokemon attribute by clicking the pokemon name. <br/>
+✅ Review each pokemon attributes by clicking the pokemon name. <br/>
 ✅ Find pokemon by searching using pokemon name. <br/>
 ✅ Filter pokemon list by select specificed pokemon attributes. <br/>
 ✅ Review evolution information of different pokemon. <br/>
@@ -71,14 +71,14 @@ Specifically, this web application is able to carry out the following functions:
 
 ***On Store page, users are able to:*** <br/>
 ✅ Review the information of all items existing in the database. <br/>
-✅ Review each item attribute by clicing the item name. <br/>
-✅ Choose to view the item list in alphabetical order. <br/>
-✅ Find item by searching using item name. <br/>
+✅ Review each item attributes by clicking the item name. <br/>
+✅ Option to view the item list in alphabetical order. <br/>
+✅ Search item using item name. <br/>
 ✅ Filter item list by different type. <br/>
-✅ Summarize the item information, counting total number of berries and medicine. <br/>
-✅ Click the item name and item will be automatically added to the 'ITEM TO BUY' area. <br/>
-✅ Click the 'BUY IT NOW' button to add item to trainer's bag. <br/>
-✅ Review Frequent Buyers Club including users who bought items number higher than average users. <br/>
+✅ Summarize item information, counting total number of berries and medicine. <br/>
+✅ Click item name and item will be automatically added to the 'ITEM TO BUY' area. <br/>
+✅ Click 'BUY IT NOW' button to add item to trainer's bag. <br/>
+✅ Review Frequent Buyers Club information including users who bought items more frequent than average users. <br/>
 
 <div>
 <h2/>Snapshot of App</h2>
