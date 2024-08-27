@@ -80,6 +80,11 @@ Specifically, this web application has following functionalities:
 ✅ Click 'BUY IT NOW' button to add item to trainer's bag. <br/>
 ✅ Review Frequent Buyers Club information including users who bought items more frequent than average users. <br/>
 
+***On Admin page, users are able to:*** <br/>
+✅ Login in as Adminstrator with correct combination of username and password<br/>
+✅ Access to all information stored in the database<br/>
+✅ Filter information by selecting checkbox options<br/>
+
 <div>
 <h2/>Snapshot of App</h2>
 </div>
@@ -91,4 +96,6 @@ Specifically, this web application has following functionalities:
 <img width="800" alt="Screenshot 2024-08-08 at 8 02 33 PM" src="https://github.com/user-attachments/assets/28724410-9144-4b06-9af5-afc6df0bbaa7">
 <img width="800" alt="Screenshot 2024-08-08 at 8 03 10 PM" src="https://github.com/user-attachments/assets/aca7e3c1-08b7-4208-b689-c44714a57260">
 <img width="800" alt="Screenshot 2024-08-08 at 8 04 02 PM" src="https://github.com/user-attachments/assets/cfc6f913-65e3-417b-9f60-7f740d067753">
+<img width="800" alt="Screenshot 2024-08-27 at 4 00 04 PM" src="https://github.com/user-attachments/assets/d5e2fbea-91f7-462a-8a4e-9652d5e27b7e">
+
 
