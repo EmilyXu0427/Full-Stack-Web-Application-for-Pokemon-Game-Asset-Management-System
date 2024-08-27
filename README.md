@@ -1,13 +1,15 @@
 <div align="center">
 <h1/>Pokemon-Game-Asset-Management-System</h1>
-  <img width="300" alt="Screenshot 2024-08-08 at 7 56 40 PM" src="https://github.com/user-attachments/assets/2ddb0a81-0504-4a18-966c-e5609b7b4a95">
+  (This is a collaborative project achieved by awesome team members !!!) <br/> 
+  
+  <img width="200" alt="Screenshot 2024-08-08 at 7 56 40 PM" src="https://github.com/user-attachments/assets/2ddb0a81-0504-4a18-966c-e5609b7b4a95">
 </div>
 
 <div>
 <h2/>Developer team</h2>
-  - Lauren<br>
-  - Renbo<br>
-  - Dana<br>
+  :sparkling_heart: Lauren<br>
+  :sparkling_heart: Renbo<br>
+  :sparkling_heart: Dana<br>
 </div>
 
 <div>
