@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- This meta tag ensures that the website renders correctly across different device sizes, enhancing mobile responsiveness. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- Link to the external CSS stylesheet. Uncomment if you wish to customize or add styling. -->
+        <link rel="stylesheet" href="styles.css">  
+    
+        <title>Home</title>
+    </head>
+<body id='home'>
+
+    <nav class="navBar">
+        <ul>
+            <li class="navSelected"><a href = "/"> Home </a></li>
+            <li><a href = "./team.html"> Team </a></li>
+            <li><a href = "./catch.html"> Catch </a></li>
+            <li><a href = "./gym.html"> Gym </a></li>
+            <li><a href = "./pokedex.html"> Pokedex </a></li>
+            <li><a href = "./store.html"> Store </a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div>
+            <h1>Welcome to our Pokedex!</h1>
+            <img src="img/pokeball.png" alt="picture of a pokeball" width="100" height="100">
+            <img src="img/pokeball.png" alt="picture of a pokeball" width="100" height="100">
+            <img src="img/pokeball.png" alt="picture of a pokeball" width="100" height="100">
+            <img src="img/pokeball.png" alt="picture of a pokeball" width="100" height="100">
+            <img src="img/pokeball.png" alt="picture of a pokeball" width="100" height="100">
+            <img src="img/pokeball.png" alt="picture of a pokeball" width="100" height="100">
+            <img src="img/pokeball.png" alt="picture of a pokeball" width="100" height="100">
+        </div>
+
+        <p id="intro-text">This application was designed to let users explore the world of pokemon using a relational databse.
+            Add pokemon to your team, catch wild pokemon, battle gyms, and buy items from the store! We hope
+            you have fun exploring this application.
+            <br><br>- Lauren, Renbo, and Dana (Devs)
+        </p>
+
+        <br>
+
+        <h2 id="leader-board-title">'Gotta Catch Them All' Leaderboard</h2>
+        <p>Congratulations to all the trainers that have caught all the available pokemon!</p>
+        <table id="leader-board">
+            <thead>
+            <tr>
+                <th>TRAINER</th>
+                <th>TRAINER SINCE</th>
+            </tr>
+            </thead>
+            <tbody >
+            </tbody>
+        </table>
+
+        <h2 id="gym-board-title">'Gotta Be The Very Best' Leaderboard</h2>
+        <p>Congratulations to our top Gym-Battlers!</p>
+        <table id="gym-board">
+            <thead>
+            <tr>
+                <th>TRAINER</th>
+                <th>GYM BADGES</th>
+            </tr>
+            </thead>
+            <tbody >
+            </tbody>
+        </table>
+
+
+        <h2 id="profile-info">Profile Information</h2>
+        <div id="username"><p id="username-text"><strong>USERNAME: </strong></p></div>
+        <div id="name"><p id="name-text"><strong>NAME: </strong> </p><button class="profile-button" id="changeName-button">CHANGE NAME</button></div>
+        <div id="zip"><p id="zip-text"><strong>ZIP/POSTAL CODE: </strong></p><button class="profile-button" id="changeZipcode">CHANGE ZIP/POSTAL CODE</button></div>
+        <br>
+        <div id="password"><button class="profile-button" id="password-button">CHANGE PASSWORD</button><button class="profile-button" id="logout-button">LOGOUT</button><button class="profile-button" id="admin-button">VIEW ADMIN PAGE</button></div>
+
+        <dialog id="timezone-change-modal"> 
+            <p>Zipcode does not exist in our system yet. Please select the correct timezone for your new zip/postal code:</p>
+            <select name="timezone" id="timezone">
+                <option value="PDT">PDT</option>
+                <option value="MST">MST</option>
+                <option value="MDT">MDT</option>
+                <option value="CST">CST</option>
+                <option value="CDT">CDT</option>
+                <option value="EST">EST</option>
+                <option value="EDT">EDT</option>
+                <option value="AST">AST</option>
+                <option value="ADT">ADT</option>
+                <option value="NDT">NDT</option>
+                <option value="PST">PST</option>
+                <option value="NST">NST</option>
+            </select>
+            <br>
+            <br>
+            <button id="new-zip-confirm-btn">Confirm</button>
+        </dialog>
+   
+
+    </div>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>

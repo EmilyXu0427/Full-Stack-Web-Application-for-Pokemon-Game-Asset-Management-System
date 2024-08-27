@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Pokedex</title>
+</head>
+<body id="pokedex">
+
+    <nav class="navBar">
+        <ul>
+            <li><a href = "/"> Home </a></li>
+            <li><a href = "./team.html"> Team </a></li>
+            <li><a href = "./catch.html"> Catch </a></li>
+            <li><a href = "./gym.html"> Gym </a></li>
+            <li class="navSelected"><a href = "./pokedex.html"> Pokedex </a></li>
+            <li><a href = "./store.html"> Store </a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+    <h1> View Pokedex</h1>
+
+    <h2>Pokemon</h2>
+    <div class="flex-container">
+        <table id="pokedex-pokemon-table">
+            <thead>
+            <tr>
+                <th>NAME</th>
+            </tr>
+            </thead>
+            <tbody id="pokedex-pokemon-table-body">
+            </tbody>
+        </table>
+
+        <div class="result-component" id="pokemon-result">
+            <img id='pokemon-silhouette' src="img/pokemon-silhouette.png" alt="picture of a pokeball" width="250" height="250">
+            <div class="attribute-list" id="pokemon-attribute-list">
+                <p class="attribute" id="pokemon-stats-name"><strong>NAME: </strong></p>
+                <p class="attribute" id="pokemon-stats-hp"><strong>HP:</strong></p>
+                <p class="attribute" id="pokemon-stats-attack"><strong>ATTACK: </strong> </p>
+                <p class="attribute" id="pokemon-stats-defence"><strong>DEFENCE: </strong> </p>
+                <p class="attribute" id="pokemon-stats-speed"><strong>SPEED: </strong></p>
+                <p class="attribute" id="pokemon-stats-gen"><strong>GENERATION: </strong> </p>
+                <p class="attribute" id="pokemon-stats-type"><strong>TYPE: </strong></p>
+                <p class="attribute" id="pokemon-stats-moves"><strong>MOVES: </strong></p>
+            </div>
+        </div>
+    </div>
+
+    <button class="search-input" type="submit" id="reset-button"> Reset Pokemon </button> 
+
+    <div class="type-input">
+        
+            SEARCH BY NAME: <input type="text" id="nameInput" placeholder="Enter NAME" required> <br>
+            <button type="submit" id="name-search-button"> Search </button>   
+        
+    </div>
+
+    <div id="filter-options">
+
+        <p><strong>Filter Search (Select search parameters):</strong></p>
+        <form action="" class="flex-container">
+            <label for="type-option">Type</label>
+            <input type="checkbox" id="type-option" name="type-option" value="type">
+    
+            <label for="attack-option">Attack</label>
+            <input type="checkbox" id="attack-option" name="attack-option" value="attack">
+            
+            <label for="defence-option">Defence</label>
+            <input type="checkbox" id="defence-option" name="defence-option" value="defence">
+            
+            <label for="speed-option">Speed</label>
+            <input type="checkbox" id="speed-option" name="speed-option" value="speed">
+            
+        </form>
+
+        <div class="type-input" id="pokemon-type-search">
+            TYPE:<select name="pokemon-type" id="pokemonType" >
+                                <option value="all">ALL</option>
+                                <option value="normal">NORMAL</option>
+                                <option value="water">WATER</option>
+                                <option value="fire">FIRE</option>
+                                <option value="grass">GRASS</option>
+                                <option value="electric">ELECTRIC</option>
+                                <option value="ice">ICE</option>
+                                <option value="fighting">FIGHTING</option>
+                                <option value="poison">POISON</option>
+                                <option value="ground">GROUND</option>
+                                <option value="flying">FLYING</option>
+                                <option value="psychic">PSYCHIC</option>
+                                <option value="bug">BUG</option>
+                                <option value="rock">ROCK</option>
+                                <option value="ghost">GHOST</option>
+                                <option value="dragon">DRAGON</option>
+                                <option value="dark">DARK</option>
+                                <option value="steel">STEEL</option>
+                                <option value="fairy">FAIRY</option>
+
+                            </select>
+            <br>
+            <label for="attack-input">MIN ATTACK: </label><input type="number" id="attack-input" name="attack-input" min="0" value="0">
+            <label for="defence-input">MIN DEFENCE: </label><input type="number" id="defence-input" name="defence-input" min="0" value="0">
+            <label for="speed-input">MIN SPEED: </label><input type="number" id="speed-input" name="speed-input" min="0" value="0">
+            
+
+            
+        </div>
+
+        <button type="submit" id="filter-search-button"> Search </button> <br>
+    
+    </div>
+
+        
+
+
+        
+
+
+    <h2>Evolutions</h2>
+
+    <table id="pokedex-evolution-table">
+        <thead>
+        <tr>
+            <th>NAME</th>
+            <th>EVOLVES TO</th>
+            <th>AT LEVEL</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+
+    <h2>Type Effectiveness</h2>
+
+    <div class="flex-container" id="effectiveness-options">
+        <div class="type-input" id="pokemon-attack-type">
+            ATTACK TYPE: <select  name="pokemon-attack-type" id="pokemonAttackType" >
+            <option value="normal">NORMAL</option>
+            <option value="water">WATER</option>
+            <option value="fire">FIRE</option>
+            <option value="grass">GRASS</option>
+            <option value="electric">ELECTRIC</option>
+            <option value="ice">ICE</option>
+            <option value="fighting">FIGHTING</option>
+            <option value="poison">POISON</option>
+            <option value="ground">GROUND</option>
+            <option value="flying">FLYING</option>
+            <option value="psychic">PSYCHIC</option>
+            <option value="bug">BUG</option>
+            <option value="rock">ROCK</option>
+            <option value="ghost">GHOST</option>
+            <option value="dragon">DRAGON</option>
+            <option value="dark">DARK</option>
+            <option value="steel">STEEL</option>
+            <option value="fairy">FAIRY</option>
+        </select>
+        </div>
+
+        <div class="type-input" id="pokemon-defence-type">
+                DEFENCE TYPE: <select  name="pokemon-defence-type" id="pokemonDefenceType" >
+                <option value="normal">NORMAL</option>
+                <option value="water">WATER</option>
+                <option value="fire">FIRE</option>
+                <option value="grass">GRASS</option>
+                <option value="electric">ELECTRIC</option>
+                <option value="ice">ICE</option>
+                <option value="fighting">FIGHTING</option>
+                <option value="poison">POISON</option>
+                <option value="ground">GROUND</option>
+                <option value="flying">FLYING</option>
+                <option value="psychic">PSYCHIC</option>
+                <option value="bug">BUG</option>
+                <option value="rock">ROCK</option>
+                <option value="ghost">GHOST</option>
+                <option value="dragon">DRAGON</option>
+                <option value="dark">DARK</option>
+                <option value="steel">STEEL</option>
+                <option value="fairy">FAIRY</option>
+            </select>
+        </div>
+        <br>
+        <div><p>RESULT: </p><p id="effectivenessMsg"></p></div>
+    </div>
+
+
+        <button type="submit" id="effectiveness-button"> Get Effectiveness </button>
+
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

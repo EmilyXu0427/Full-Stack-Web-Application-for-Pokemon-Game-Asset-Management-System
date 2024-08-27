@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+
+    <link rel="stylesheet" href="styles.css">  
+
+    <title>Team</title>
+</head>
+
+<body id="gym">
+    <nav class="navBar">
+        <ul>
+            <li><a href = "/"> Home </a></li>
+            <li><a href = "/team.html"> Team </a></li>
+            <li><a href = "/catch.html"> Catch </a></li>
+            <li class="navSelected"><a href = "/gym.html"> Gym </a></li>
+            <li><a href = "/pokedex.html"> Pokedex </a></li>
+            <li><a href = "/store.html"> Store </a></li>
+        </ul>
+    </nav>
+    
+    <div class=main>
+        <h1> Challenge Gyms </h1>
+        
+        <h2>All Gyms</h2>
+        <div class="gym-information">
+            <div>
+            <table id="gym-table">
+                <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>LEADER</th>
+                    <th>TYPE</th>
+                    <th>CITY</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            </div>
+            <img src="img/gym-logo.png" alt="pokemon gym symbol" width="300" height="300" style="padding-left: 100px;">
+        </div>
+
+            <br><form id="gym-search">
+                GYM NAME: <input type="text" id="searchName" placeholder="Enter GYM NAME" required> <br>
+                <button type="submit"> Fight! </button>
+            </form>
+
+            <p>RESULT: </p>
+            <div id="gymResultMsg"></div><br>
+
+            <script src="scripts.js"></script>
+
+    </main>
+</body>
+</html>

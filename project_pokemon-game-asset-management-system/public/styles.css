@@ -1,0 +1,250 @@
+/* GLOBAL STYLES */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: 0;
+    max-width: 1000px;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #fffef5f9;
+    color: #313131;
+    
+}
+
+hr {
+    border-top: 2px solid rgb(44, 51, 62);
+    margin: auto;
+}
+
+/* TABLE STYLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow-y: scroll;
+    height: 300px;
+    display: block;
+}
+
+th, td { 
+    padding: 12px 15px;
+    width: 100%; 
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr {
+    width: 100%
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+
+tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+button {
+    background-color: #313131;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+}
+
+.profile-button {
+    margin: 8px;
+    margin-left: 0px;
+}
+
+
+button:hover {
+    background-color: #CC0000;
+}
+
+button:active {
+    background-color: rgb(12, 67, 187);
+}
+
+
+#catch {
+    background-color: #99cc00;
+}
+
+#pokedex {
+    background-color: #e6b3ff;
+}
+
+#team {
+    background-color: #f9e2ef;
+}
+
+#filter-options {
+    border-left: 8px solid purple;
+    background-color: #e8c5f9;
+    border-radius: 8px;
+    padding: 5px 10px; 
+}
+
+#gym {
+    background-color: #a0bbe7;
+}
+
+#store {
+    background-color: #ffc905;
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    font-family: Roboto, sans-serif;
+}
+
+.result-component {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+#pokemon-silhouette{
+    margin: 30px;
+}
+
+#pokedex-pokemon-table {
+    width: 150px;
+}
+
+#pokemonType {
+    margin: 20px;
+}
+
+#team-pokemon-table {
+    width: 400px;
+}
+
+#filter-search-button {
+    margin-bottom: 20px;
+}
+
+.gym-information {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.nicknameForm {
+    display: none;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#reset-button {
+    margin-left: 0px;
+}
+
+.type-input {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+#attack-input, #defence-input, #speed-input {
+    width: 50px;
+}
+
+
+#effectiveness-options {
+    padding: 20px;
+}
+
+#effectiveness-button, #reset-attribute-button, #select-item {
+    margin-bottom: 20px;
+}
+
+#type-option, #attack-option, #defence-option, #speed-option {
+    margin-right: 30px;
+    margin-bottom: 0px;
+    width:30px;
+}
+
+#blissey-img {
+    padding: 30px;
+}
+
+#admin-button {
+    display: none;
+}
+
+.navBar ul {
+    margin: 0;
+    padding: 0;
+    position:fixed;
+    height: 100pc;
+    width: 12pc;
+    list-style-type: none;
+    background-color:#3c3c54
+}
+
+.navBar a {
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    display:block;
+    color:#ccc
+}
+
+.navBar a:hover {
+    background-color:#242432;
+    color:white;
+}
+
+.navSelected {
+    font-weight: bolder;
+    border-right: solid;
+    border-left: solid;
+    border-width: 7px;
+    border-right-color: rgb(129, 125, 229);
+    border-left-color:transparent;
+}
+
+.main {
+    margin-left: 15pc;
+}
+
+/* INPUT STYLES */
+input, textarea {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+}
+
+
