@@ -8,7 +8,7 @@
 <div>
 <h2/>Developer team</h2>
   :sparkling_heart: Lauren<br>
-  :sparkling_heart: Renbo<br>
+  :sparkling_heart: Emily (me)<br>
   :sparkling_heart: Dana<br>
 </div>
 
