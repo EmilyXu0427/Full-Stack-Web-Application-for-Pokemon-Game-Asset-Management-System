@@ -1,6 +1,6 @@
 <div align="center">
 <h1/>Pokemon-Game-Asset-Management-System (Full Stack)</h1>
-  (This is a collaborative project achieved by awesome team members !!!) <br/> 
+  (This is a collaborative project achieved with awesome team members !!!) <br/> 
   
   <img width="200" alt="Screenshot 2024-08-08 at 7 56 40 PM" src="https://github.com/user-attachments/assets/2ddb0a81-0504-4a18-966c-e5609b7b4a95">
 </div>
